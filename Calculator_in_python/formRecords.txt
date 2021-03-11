@@ -1,4 +1,0 @@
-Name = 
-aPhone = 
- aMail = 
- a

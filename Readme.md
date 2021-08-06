@@ -4,6 +4,12 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=avii1099&label=Profile%20views&color=0e75b6&style=flat" alt="avii1099" /> </p>
 
+##  Music Player in Python
+
+[Source Code](https://github.com/Avii1099/Python-Tkinter-Gui-Project/blob/master/Music%20Player/MusicController.py)
+
+![Music Player](https://raw.githubusercontent.com/Avii1099/Python-Tkinter-Gui-Project/master/Music%20Player/output.jpg)
+
 ##  Windows Notification App
 
 [Source Code](https://github.com/Avii1099/Python-Tkinter-Gui-Project/tree/master/Windows_Notification)

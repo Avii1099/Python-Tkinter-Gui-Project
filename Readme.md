@@ -4,6 +4,12 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=avii1099&label=Profile%20views&color=0e75b6&style=flat" alt="avii1099" /> </p>
 
+
+##  IMAGE Converter
+[Source Code](https://github.com/Avii1099/Python-Tkinter-Gui-Project/blob/master/Imageconvert/ImageResize.py)
+
+![Image Converter](https://raw.githubusercontent.com/Avii1099/Python-Tkinter-Gui-Project/master/Imageconvert/output.PNG)
+
 ##  Music Player in Python
 
 [Source Code](https://github.com/Avii1099/Python-Tkinter-Gui-Project/blob/master/Music%20Player/MusicController.py)
@@ -101,10 +107,7 @@ Click Here For [Source Code](https://github.com/Avii1099/Python-Tkinter-Gui-Proj
 ![Image View](https://raw.githubusercontent.com/Avii1099/Python-Tkinter-Gui-Project/master/IMAGE_VIEW_GUI_PYTHON/image_viewer_output.jpg)
 
 
-##  IMAGE RESIZE
-[Source Code](https://github.com/Avii1099/Python-Tkinter-Gui-Project/blob/master/Image%20Resize/ImageResize.py)
 
-![Image View](https://raw.githubusercontent.com/Avii1099/Python-Tkinter-Gui-Project/master/Image%20Resize/Image_resize.jpg)
 
 ##  Check Internet Speed GUI in Python
 

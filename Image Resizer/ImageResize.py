@@ -14,7 +14,7 @@ from tkinter import filedialog
 foreground = "#404042"
 background = "#ffffff"
 font_max_size = "Verdana 20 bold"
-font_min_size ="Verdana 10 bold"
+font_min_size = "Verdana 10 bold"
 filename = ""
 
 
@@ -31,23 +31,15 @@ test = ImageTk.PhotoImage(image, size=("10", "10"))
 Label(image=test, bg="#fff").pack()
 
 # define label for app name and developer name
-Label(
-    root, text="Image Converter", font=font_max_size, fg=foreground, bg=background
-).pack()
-Label(
-    root, text="@_python.py_", font=font_min_size, fg=foreground, bg=background
-).pack()
+Label(root, text="Image Converter", font=font_max_size, fg=foreground, bg=background).pack()
+Label(root, text="@_python.py_", font=font_min_size, fg=foreground, bg=background).pack()
 
 # variables for ask image width and height
 width, height = IntVar(), IntVar()
 
 # Define Label and Entry To enter image resize size
-Label(root, text="Size = ", font=font_min_size, fg=foreground, bg=background).place(
-    x=10, y=280
-)
-Label(root, text="X", font=font_min_size, fg=foreground, bg=background).place(
-    x=166, y=280
-)
+Label(root, text="Size = ", font=font_min_size, fg=foreground, bg=background).place(x=10, y=280)
+Label(root, text="X", font=font_min_size, fg=foreground, bg=background).place(x=166, y=280)
 Label(root, text="Width", fg=foreground, bg=background).place(x=70, y=250)
 Label(root, text="height", fg=foreground, bg=background).place(x=195, y=250)
 
@@ -75,7 +67,7 @@ Entry(
 
 combobox_dict = {
     "image_ext": (" PNG", " GIF", " ICO"),
-    "predefined_size": (" Instagram Post", " Instagram Story", " IPhone X", " Android 1080p"," Apple Watch")
+    "predefined_size": (" Instagram Post", " Instagram Story", " IPhone X", " Android 1080p", " Apple Watch"),
 }
 
 extension, selected_size = StringVar(), StringVar()
@@ -121,19 +113,19 @@ def choose_file():
 # function for convert image
 def start_convert():
     sizes = {
-    "Instagram Post": "1080x1080",
-    "Instagram Story": "1080x1920",
-    "IPhone X": "1125x2436",
-    "Android 1080p": "1080x1920",
-    "Apple Watch": "312x390",
+        "Instagram Post": "1080x1080",
+        "Instagram Story": "1080x1920",
+        "IPhone X": "1125x2436",
+        "Android 1080p": "1080x1920",
+        "Apple Watch": "312x390",
     }
 
-    width_size, height_size = width.get(),  height.get()
+    width_size, height_size = width.get(), height.get()
 
     if not width_size or not height_size:
         size_list = sizes.get(predefined_size.get().strip(), "1080x1080").split("x")
         width_size, height_size = int(size_list[0]), int(size_list[1])
-        
+
     if not filename:
         tkinter.messagebox.showwarning("error", "Please select file")
 
@@ -156,9 +148,7 @@ def start_convert():
 
 
 # label for file explore
-label_file_explorer = Label(
-    root, text="File: ", width=50, height=4, fg=foreground, bg=background
-)
+label_file_explorer = Label(root, text="File: ", width=50, height=4, fg=foreground, bg=background)
 label_file_explorer.pack()
 
 # design button
